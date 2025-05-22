@@ -49,7 +49,7 @@ Rebuild the following flake with `nixos-rebuild switch --flake .#machine`.
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    homini.url = "github:minizilla/homini";
+    homini.url = "github:smoothprogrammer/homini";
     homini.inputs.nixpkgs.follows = "nixpkgs";
   };
 
@@ -82,7 +82,7 @@ Rebuild the following flake with `darwin-rebuild switch --flake .#machine`.
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     darwin.url = "github:LnL7/nix-darwin";
     darwin.inputs.nixpkgs.follows = "nixpkgs";
-    homini.url = "github:minizilla/homini";
+    homini.url = "github:smoothprogrammer/homini";
     homini.inputs.nixpkgs.follows = "nixpkgs";
   };
 
@@ -113,7 +113,7 @@ Run the following flake with `nix run`.
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-    homini.url = "github:minizilla/homini";
+    homini.url = "github:smoothprogrammer/homini";
     homini.inputs.nixpkgs.follows = "nixpkgs";
   };
 
